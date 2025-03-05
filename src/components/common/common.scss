@@ -1,0 +1,75 @@
+.MuiTabs-list{
+    gap: 20px;
+}
+
+.button-tab{
+    &.MuiButtonBase-root{
+        color: white;
+    }
+    &.Mui-selected {
+        color: black !important;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+
+.MuiTabs-indicator{
+    background-color: black !important;
+}
+
+.MuiButtonBase-root{
+   &.hire-me-button{
+    background-color: black;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 40px;
+   }
+   &.casestudy-button{
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    color: black;
+    text-transform: capitalize;
+   }
+   &.view-button{
+    color: white;
+    text-transform: lowercase;
+    text-decoration: 4px underline grey;
+   }
+}
+
+.MuiTabPanel-root{
+    &.tab-panel{
+        background-color: black;
+        color: white;
+    }
+}
+
+.slick-prev {
+    left: 70% !important;
+    top: 200px !important; 
+}
+
+.slick-next {
+    left: 75% !important;
+    top: 200px !important;
+}
+
+.MuiAccordion-root{
+    &.accordian{
+        color: white;
+        background-color: black;
+    }
+}
+
+.MuiAccordionDetails-root{
+    &.accordian-det{
+        text-align: start;
+    }
+}
+
+.MuiTypography-root{
+    &.accordian-text{
+        font-size: 22px;
+    }
+}
